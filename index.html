@@ -6,19 +6,19 @@
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+        <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
     </head>
     <body>
         <!-- hearder-->
-        <header id="hot">
+        <header>
             <div class="navig">
-                <h2><img width="50" height="50" src="image/logo.png" alt="logo"> BAT-CONSTRUCTION </h2>
-            
-                <nav id="click">
+                <h1><img class="logo"width="50" height="50" src="image/logo.png" alt="logo"> BAT<span class="tire"> - </span>CONSTRUCTION </h1>
+                <nav>
                     <ul>
                         <li><a text-transform="none" href="#click">ACCUEIL</a></li>
                         <li><a href="#travail">TRAVAIL</a></li>
                         <li><a href="#cv">CV</a></li>
-                        <li><a href="#à propos">A PROPOS</a></li>
+                        <li><a href="#à propos">APROPOS</a></li>
                     </ul>
                 </nav>
             </div>
@@ -26,28 +26,33 @@
       
         <!-- section travail-->
         <section id="travail">
-           <div class="image 1">
-              <h2>Les travaux de gros œuvres en construction</h2>
+          <h2> Les travaux de gros œuvres en construction</h2>
+           <div class="image1">
               <img height="340px" width="auto" src="image/img1.jpg" alt="image 1">
            </div>
+
+           <div class="image2">
+              <img height="340px" width="auto" src="image/img4.jpg" alt="image 3">
+           </div>
+
            <br>
            <br>
-           <div class="video">
-              <h2> C'est une belle video de batiment </h2>
-              <video controls width="520" height="auto" autoplay>
+
+         <div>
+              <h2 class="videoh2"> C'est une belle video de batiment </h2>
+              <video class="videos" controls width="520" height="auto" autoplay>
                 <source src="video/video1.mp4" type="video/mp4">
-                please check the video extension
-                
               </video>
               
-            </div>
+         </div>
         </section>
         <br>
         <br>
         <!-- section Cv-->
         <section id="cv">
+          <h2> Table recutement et leur competence</h2>
            <div class="tb">
-            <h2> table recutement et leur competence</h2>
+            
             <table border="I">
               <tr>
                 <th>NOM</th>
@@ -75,20 +80,24 @@
         <br>
         <br>
         <!-- Section à propos-->
-        <section>
-           <div id="à propos">
-            <h2>A propos</h2>
+        <section id="propos">
+          <h2>A propos</h2>
+          <div>
+            
             <p>La Compagnie BAT-Construction d’Entreprises (CBCE), créée en 1970, <br> est spécialisée dans les BTP, routes, ouvrages d’art, bâtiment, hydraulique et assainissement. <br> La CBCE s’est imposée comme une entreprise incontournable dans le secteur des travaux publics et du bâtiment au Sénégal et dans la sous-région Ouest Africaine.
 
                 <br> La qualité de son travail, la rigueur de son approche, son aptitude à aborder des sujets complexes avec des résultats supérieurs aux attentes, <br> en font plus qu’un prestataire, mais un partenaire réputé pour les clients.</p>
-           </div>
+          </div>
        </section>
         <br>
         <br>
         <br>
         <footer id="contact">
-            <h4>CONTACT</h4>
+            <h4 class="adress1">CONTACT</h4>
             <br>
+            <h5 class="adress2">☎ 338435645</h5>
+            <br>
+            <h5 class="adress3">📧 bat@bat-construction.com</h5>
             <form>
                 <h7>Nom et prenom <br><textarea type="name" placeholder="saisir votre nom"></textarea></h7>
                 <br>
@@ -98,14 +107,18 @@
                 <br>
                 <br>
                 <select>
-                    <option value="Client-Particulier">Client-particulier</option>
-                    <option value="Client-Priver">Client-Priver</option>
-                    <option value="VIP-Client">VIP-Client</option>
+                 <option value="Client-Particulier">Client-particulier</option>
+                 <option value="Client-Priver">Client-Priver</option>
+                 <option value="VIP-Client">VIP-Client</option>
                 </select>
                 <br>
                 <br>
                 <button>Valide</button>
-            </form>
+                <br>
+                <br>
+                
+           </form>
+          <h5 class="copyright">©2023 bat-construction par Momo</h5>
         </footer>
     </body>
 </html>

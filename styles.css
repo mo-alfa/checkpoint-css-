@@ -1,0 +1,166 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+body{
+    background-color: rgb(237, 229, 216);
+}
+
+h1{
+    font-size: 35px;
+    font-family:cursive;
+    color: #444;
+}
+
+h2{
+    font-size: 15px;
+    font-family:cursive;
+    color: rgb(38, 38, 38);
+}
+
+.tire{
+    color:rgba(154, 192, 228, 0.898);
+
+}
+
+/* Hearder */
+header{
+    height: 90px;
+    background-color:#5b5be5;
+    
+}
+
+header h1{
+    float: left;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    color: blanchedalmond;
+    font-weight: bolder;
+}
+.logo {
+    margin-top: 5px;
+    border-radius:25px;
+    background-color: blanchedalmond;
+
+}
+header nav{
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+    
+}
+header nav ul li{
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+   
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-weight: bolder;
+    
+}
+
+/* section travail */
+#travail{
+    text-align: center;
+    margin-top: 15px;
+    
+    
+}
+#travail h2{
+    margin-top: 15px;
+    font-variant: inherit;
+    
+}
+
+.image1{
+    float: left;
+    margin-top: 25px;
+    margin-left: 15px;
+    
+
+    
+}
+.image2{
+    float:right;
+    margin-top: 25px;
+    margin-right: 15px;
+     
+}
+.videoh2{
+    margin-top: 115px;
+    
+
+}
+
+.videos{
+    border-top: 5px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* section CV */
+#cv{
+    text-align: center ;
+
+}
+#cv h2{
+    margin-bottom: 15px;
+    
+}
+
+/* section apropos */
+
+#propos p{
+    text-align: center;
+
+
+}
+
+/* section contact footer */
+
+#propos h2{
+    text-align: center;
+    margin-bottom: 20px;
+
+
+}
+.adress1{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.adress2{
+    
+    margin-left: 60px;
+}
+.adress3{
+    
+    margin-left: 60px;
+}
+#contact{
+    border-top:solid;
+
+}
+#contact form {
+    float: inline-start;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+    margin-left: 900px;
+}
+.copyright{
+    background-color: #5b5be5;
+    text-align: center;
+    color: blanchedalmond;
+    font-family: monospace;
+    font-size: 15px;
+}
